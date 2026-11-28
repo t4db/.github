@@ -1,8 +1,3 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="t4-dark.svg">
-  <img alt="T4" src="t4-light.svg" width="72">
-</picture>
-
 T4 is an open-source key-value database built on object storage. It keeps hot data on local disk, makes it durable in S3-compatible storage, and speaks the etcd v3 API — so the infrastructure that already talks to etcd can run on it without a consensus cluster to operate.
 
 - Documentation: [t4db.github.io/t4](https://t4db.github.io/t4/)
